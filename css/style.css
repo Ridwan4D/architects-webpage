@@ -1,0 +1,36 @@
+/*
+font-family: 'Work Sans', sans-serif;
+*/
+/* common style start here */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common style end here */
+
+/* header style start here,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+/* nav style start here */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+/* nav style end here */
+
+/* header style end here ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+
+/* main style start here,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+
+
+/* main style end here,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
