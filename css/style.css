@@ -35,7 +35,7 @@ font-family: 'Work Sans', sans-serif;
 /* header style start here,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
 header {
     background: rgba(255, 144, 14, 0.10);
-    padding: 10px 200px;
+    padding: 30px 200px;
 }
 
 /* nav style start here */
@@ -73,30 +73,66 @@ nav li a {
 .banner {
     text-align: center;
 }
-.banner-text{
+
+.banner-text {
     margin: 0px 175px;
 }
+
 .banner-title {
     font-size: 64px;
     font-weight: 700;
     margin: 0;
 }
+
 /* .banner-img{
     width: 75vw;
     height: 70vh;
     margin: 0 auto 20px;
 } */
-.banner-img img{
+.banner-img img {
     width: 90%;
     height: 100%;
 }
+
 /*banner style end here  */
 
 /* header style end here ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
 
 /* main style start here,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+main {
+    max-width: 1440px;
+    margin: 50px auto;
+}
 
+/* teams section start */
+.team-container {
+    display: flex;
+    align-items: center;
+}
 
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-text {
+    padding: 0 70px;
+}
+
+.teams-text h3 {
+    font-size: 2.815rem;
+    font-weight: 700;
+}
+
+.teams-text .gray {
+    color:  #727272;
+    font-weight: 500;
+}
+.teams-text .orange {
+    color: #FF900E;
+    font-weight: 700;
+}
 /* main style end here,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
 
 /* footer style start here,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
@@ -106,33 +142,37 @@ nav li a {
 
 /* media queries style here */
 @media screen and (max-width:576px) {
-    header{
+    header {
         padding: 20px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
     }
+
     /* nav > ul{
         flex-direction: column;
     } */
-    .banner-text{
+    .banner-text {
         margin: 0px 10px;
     }
 }
 
 /* medium device queries */
 @media screen and (min-width:576px) and (max-width:960px) {
-    header{
+    header {
         padding: 50px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
         text-align: center;
     }
+
     /* nav > ul{
         flex-direction: column;
     } */
-    .banner-text{
+    .banner-text {
         margin: 0px 50px;
     }
 }
